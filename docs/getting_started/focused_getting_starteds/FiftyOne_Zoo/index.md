@@ -1,23 +1,32 @@
 # Getting Started with the FiftyOne Zoo
 
+Welcome to the FiftyOne Zoo! This interactive guide will walk you through using, customizing, and extending the Zoo’s capabilities with datasets and models — all from within Jupyter Notebooks.
+
 ## Who this is for
 
-This experience is designed for data scientists, ML engineers, and computer vision practitioners looking to explore and extend the FiftyOne Zoo — a unified interface to datasets and models.
+This experience is designed for:
+- **Data scientists** looking to explore CV datasets quickly
+- **ML engineers** wanting to prototype with pre-trained models
+- **Computer vision practitioners** seeking to integrate custom models
 
-Whether you're experimenting with public data, applying pre-trained models, or sharing your own assets, the Zoo helps you accelerate visual AI workflows.
+Whether you're exploring public data, testing models, or wrapping your own contributions, the Zoo helps you streamline your computer vision workflows.
 
 ## Assumed Knowledge
 
-- Python and Jupyter basics
+To get the most out of this series, you should have:
+- Basic knowledge of Python and Jupyter Notebooks
 - Familiarity with CV tasks (classification, detection, segmentation)
-- Some FiftyOne experience is helpful but not required
+- Some exposure to FiftyOne (optional but helpful)
 
 ## Time to complete
 
-30–45 minutes for step1 and step2
-60+ minutes for step3 and step4
+- **Step 1:** 20–30 minutes  
+- **Step 2:** 15–20 minutes  
+- **Step 3:** 30–45+ minutes (more if wrapping your own model)
 
 ## Required packages
+
+Before getting started, make sure the following packages are installed:
 
 ```bash
 pip install fiftyone torch torchvision
@@ -26,16 +35,10 @@ pip install fiftyone torch torchvision
 ## Content
 
 ### [Step 1: Exploring the FiftyOne Dataset Zoo](./step1.ipynb)  
-Learn how to browse, download, and load datasets directly from the FiftyOne Dataset Zoo.
+Get hands-on with the FiftyOne Dataset Zoo. You'll learn how to list, load, and explore built-in datasets as well as work with remotely-sourced datasets hosted on external URLs or GitHub repositories.
 
 ### [Step 2: Using the FiftyOne Model Zoo](./step2.ipynb)  
-Apply pre-trained models to your datasets in just a few lines of code using the Model Zoo.
+Apply pre-trained models to datasets using the built-in Zoo. You'll see how to use classification and detection models, visualize results, and iterate faster.
 
-### [Step 3: Creating a Remotely-Sourced Dataset for the Zoo](./step3.ipynb)  
-Build and register your own downloadable dataset into the Zoo for collaboration and reuse.
-
-### [Step 4: Creating a Remotely-Sourced Model for the Zoo](./step4.ipynb)  
-Define, wrap, and prepare custom remote models to behave like native Zoo models.
-
-### [Step 5: Working with Dataset and Model Zoo APIs](./step5.ipynb)  
-Explore how to programmatically and via CLI interact with the FiftyOne Zoo. Learn to list, load, configure, and register custom datasets and models using the Zoo APIs.
+### [Step 3: Using Remotely-Sourced Zoo Models](./step3.ipynb)  
+Learn how to integrate custom or community models hosted on GitHub or public URLs. This step shows how to load and run these models just like native zoo models — ideal for advanced use cases or team-specific models.

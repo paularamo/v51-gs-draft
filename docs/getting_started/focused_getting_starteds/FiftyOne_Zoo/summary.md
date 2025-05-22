@@ -1,45 +1,39 @@
 # FiftyOne Zoo Experience Summary
 
-The FiftyOne Zoo provides a powerful way to load datasets and apply models from a unified interface. This experience walks through everything from using pre-built Zoo resources to registering your own.
+The FiftyOne Zoo provides a unified and flexible way to load datasets and apply pre-trained or custom models — all from a single interface. This experience guides you from exploring public Zoo resources to leveraging remote assets hosted on GitHub or other platforms.
 
 ## Summary of Notebooks
 
 ### Step 1: Exploring the Dataset Zoo
-Understand how to access public datasets like COCO or Quickstart and visualize them directly in FiftyOne.
+Discover how to access and visualize public datasets directly from the FiftyOne Dataset Zoo, including support for remotely-sourced datasets defined in GitHub repositories or cloud URLs.
 
 ### Step 2: Using the Model Zoo
-Apply classification, detection, and segmentation models to your datasets using Zoo integration.
+Apply pre-trained models like classifiers and object detectors to your datasets. Learn to quickly generate predictions and inspect results within the FiftyOne App.
 
-### Step 3: Creating a Remotely-Sourced Dataset
-Design and structure your own dataset with loaders, downloaders, and metadata for Zoo registration.
-
-### Step 4: Creating a Remotely-Sourced Model
-Build a wrapper to support external models (e.g., ONNX, REST APIs, custom checkpoints) and integrate them into your workflow.
-
-### Step 5: Working with Dataset and Model Zoo APIs  
-Master the Dataset Zoo and Model Zoo APIs in FiftyOne. Learn to list available resources, load datasets with special requirements, apply models, control storage paths, and register local Zoo assets.
+### Step 3: Using Remotely-Sourced Zoo Models
+Load and use external models hosted in public repositories or shared via URL-based archives. Wrap and integrate them seamlessly into the FiftyOne Model Zoo interface.
 
 ---
 
-This series is part of the **Getting Started with FiftyOne** initiative. For more tutorials, head to [FiftyOne Documentation](https://beta-docs.voxel51.com/).
+This experience is part of the **Getting Started with FiftyOne** series. For more tutorials, visit the [FiftyOne Documentation](https://beta-docs.voxel51.com/).
 
 ## Next Steps
 
-Now that you've completed the Segmentation Getting Started series, here are some suggested next steps to deepen your journey with FiftyOne:
+Now that you've completed the Zoo Getting Started series, take your journey further with these ideas:
 
 - **Explore Model Evaluation**  
-  Learn how to evaluate segmentation models by comparing predictions against ground truth, and identifying failure cases in your dataset.
+  Dive into how to compare model predictions with ground truth using FiftyOne’s powerful evaluation tools.
 
-- **Try Out FiftyOne Plugins**  
-  Extend your workflow with powerful plugins like video embeddings, active learning tools, and integrations with annotation platforms.
+- **Use FiftyOne Plugins**  
+  Expand your workflow with plugins that support video embeddings, annotation tools, semantic search, and more.
 
-- **Connect with the Community**  
-  Share your findings, ask questions, or browse community projects on the [FiftyOne Discord](https://community.voxel51.com) or [GitHub Discussions](https://tbd.com).
+- **Share with the Community**  
+  Post your projects, questions, and insights on the [FiftyOne Discord](https://community.voxel51.com) or join discussions on GitHub.
 
-- **Load Your Own Dataset**  
-  Adapt these workflows to your real-world segmentation projects. Whether it's agriculture, retail, or industrial inspection — FiftyOne supports it all.
+- **Apply to Your Own Datasets**  
+  Extend these examples to your domain—whether you're working on smart cities, agriculture, retail, or industrial inspection.
 
-- **Read the Docs**  
-  Dive deeper into what FiftyOne can do in the [official documentation](https://beta-docs.voxel51.com/).
+- **Deepen Your Knowledge**  
+  Explore more features and tutorials in the [official FiftyOne docs](https://beta-docs.voxel51.com/).
 
-We can't wait to see what you'll build next with FiftyOne! 
+We’re excited to see how you use the Zoo to power your next computer vision project!
